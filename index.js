@@ -1,8 +1,14 @@
-'use strict';
+/**
+ * Copyright Camunda Services GmbH and/or licensed to Camunda Services GmbH
+ * under one or more contributor license agreements. See the NOTICE file
+ * distributed with this work for additional information regarding copyright
+ * ownership.
+ *
+ * Camunda licenses this file to you under the MIT; you may not use this file
+ * except in compliance with the MIT License.
+ */
 
 module.exports = {
-  name: 'Rename Technical IDs',
-  menu: './menu/menu.js',
-  script: './client/client-bundle.js',
-  style: './style/style.css'
+  script: './dist/client.js',
+  name: 'Rename Technical IDs'
 };
