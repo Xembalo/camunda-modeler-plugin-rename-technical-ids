@@ -1,5 +1,10 @@
-import { registerClientExtension } from 'camunda-modeler-plugin-helpers';
+import {
+  registerClientExtension,
+  registerBpmnJSPlugin
+} from 'camunda-modeler-plugin-helpers';
 
-import RenamePlugin from './RenamePlugin';
+import RenameClientPlugin from './RenameClientPlugin';
+import RenameBPMNPlugin from './RenameBPMNPlugin';
 
-registerClientExtension(RenamePlugin);
+registerClientExtension(RenameClientPlugin);
+registerBpmnJSPlugin(RenameBPMNPlugin);

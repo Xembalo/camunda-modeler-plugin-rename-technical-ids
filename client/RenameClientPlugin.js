@@ -35,7 +35,7 @@ const defaultState = {
   ]
 };
 
-export default class RenamePlugin extends PureComponent {
+export default class RenameClientPlugin extends PureComponent {
   activeTab = {
     id: '__empty',
     type: 'empty'
